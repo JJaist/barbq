@@ -202,7 +202,7 @@ DEPENDENCIES
   bootsnap
   cssbundling-rails
   debug
-  devise
+  devise (~> 4.8, >= 4.8.1)
   jbuilder
   jsbundling-rails
   puma (~> 5.0)
