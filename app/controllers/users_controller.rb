@@ -1,6 +1,5 @@
 class UsersController < ApplicationController
   before_action :authenticate_user!, except: [:show]
-
   before_action :set_current_user, except: [:show]
 
   def show
@@ -24,7 +23,6 @@ class UsersController < ApplicationController
     @user = current_user
   end
 
-  # Пропишем, что разрешено передавать в params
   def user_params
     params.require(:user).permit(:name, :email)
   end
