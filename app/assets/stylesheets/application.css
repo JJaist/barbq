@@ -15,27 +15,12 @@
  */
 
 /* Buffers */
-.buffer-top {
-  margin-top: 20px;
-}
-
-.buffer-bottom {
-  margin-bottom: 20px;
-}
-
-.buffer-both {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-/* Avatars for users & events */
 .img-icon, .img-icon-small {
-  height: 50px;
+  height: 30px;
   width: auto;
   border-radius: 50%;
 }
 
-/* Thumbnails for events/index */
 .thumbnail {
   position: relative;
   background: transparent;
@@ -52,5 +37,12 @@
 }
 
 .thumbnail-inner {
-  padding: 20px 4px 4px;
+  padding: 4px;
+}
+
+a {
+ text-decoration: none;
+}
+.field_with_errors {
+  display: contents;
 }
